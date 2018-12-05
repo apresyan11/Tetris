@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tetris</title>
+
+	<script src="jquery-3.2.1.min.js"></script>
+
+<style type="text/css">
+
+	body{
+		background-image:url(tetris.jpg);
+	}
+
+	.start{
+	height:40px;
+	width:80px;
+	background: #2980b9;
+	border:none;
+	border-radius:3px;
+	font-family:arial;
+	font-size: 20px;
+	transition: 0.5s;
+	position: absolute;
+	left: 35%;
+	top: 50%;
+	}
+
+	.exit{
+	height:40px;
+	width:80px;
+	background: #2980b9;
+	border:none;
+	border-radius:3px;
+	font-family:arial;
+	font-size: 20px;
+	transition: 0.5s;
+	position: absolute;
+	left:56.5%;
+	top: 50%;
+	}
+
+	.start:hover{
+	background:#16a085;transition: 0.5s;
+	}
+
+	.exit:hover{
+	background:#16a085;transition: 0.5s;
+	}
+	
+</style>
+</head>
+<body>
+<div id="score"></div>
+
+<div>
+<a href="index.html" ><button class="start">Start</button></a>
+<a href="https://www.google.am/" ><button class="exit">Exit</button></a>
+</div>
+</body>
+</html>

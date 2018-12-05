@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Tetris</title>
+<style type="text/css">
+	
+	.tetris{
+		position:absolute;
+		left: 42%;
+		top: 10%;
+		border: 1px solid #fff;
+	}
+
+	body{
+	background-image:url(tetris.jpg); 	
+	}
+
+</style>
+</head>
+<body>
+<canvas class="tetris" id="tetris" width="240" height="400" ></canvas>
+<p id="tox" style="display: none;size: 40px;color: #fff;font-family: Arial;position: absolute;top: 37%;left: 28%;">GAME OVER :(</p>
+<button onclick="start()" id="start" style="	
+	display: none;
+	height:40px;
+	width:80px;
+	background: #2980b9;
+	border:none;
+	border-radius:3px;
+	font-family:arial;
+	font-size: 20px;
+	transition: 0.5s;
+	position: absolute;
+	left: 28%;
+	top: 42.5%;">Restart</button>
+<script src="script.js"></script>
+</body>
+</html>
